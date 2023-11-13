@@ -2,7 +2,11 @@ package com.company;
 
 public class MathProblems {
 
-    public int sum(int m, int n){
-        return ((m*n/2)%7);
+    public boolean isEven(int n){
+        return n%2==0;
+    }
+
+    public boolean isOdd(int n){
+        return n%2==1;
     }
 }
